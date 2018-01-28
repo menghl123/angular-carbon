@@ -1,0 +1,18 @@
+<ac-header-bar>
+  <div class="left" (click)="back()"><a class="ac-icon-button color-" href="javascript:;" slot="left">
+    <i class="icon icon-arrow_back" style="font-size: 24px;"></i>
+    <div class="ac-ripple-ink"></div>
+  </a></div>
+  <div class="center"><span>Angular Carbon</span></div>
+</ac-header-bar>
+<div [@flyIn]="'active'">
+  <ac-switch [(ngModel)]="value" label="学生"></ac-switch>
+  <pre>
+    {{value | json}}
+  </pre>
+
+  <ac-switch leftValue="woman" rightValue="man" [(ngModel)]="value1" label="性别"></ac-switch>
+  <pre>
+    {{value1 | json}}
+  </pre>
+</div>

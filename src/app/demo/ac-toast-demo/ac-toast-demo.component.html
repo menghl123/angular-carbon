@@ -1,0 +1,12 @@
+<ac-header-bar>
+  <div class="left" (click)="back()"><a class="ac-icon-button color-" href="javascript:;" slot="left">
+    <i class="icon icon-arrow_back" style="font-size: 24px;"></i>
+    <div class="ac-ripple-ink"></div>
+  </a></div>
+  <div class="center"><span>Angular Carbon</span></div>
+</ac-header-bar>
+<div [@flyIn]="'active'">
+  <ac-button (click)="openToast()" type="filled">打开</ac-button>
+  <ac-button (click)="openToastCenter()" type="filled">打开中间</ac-button>
+  <ac-button (click)="openToastIcon()" type="filled">打开中间</ac-button>
+</div>

@@ -1,0 +1,21 @@
+<ac-header-bar>
+  <div class="left" (click)="back()"><a class="ac-icon-button color-" href="javascript:;" slot="left">
+    <i class="icon icon-arrow_back" style="font-size: 24px;"></i>
+    <div class="ac-ripple-ink"></div>
+  </a></div>
+  <div class="center"><span>Angular Carbon</span></div>
+</ac-header-bar>
+<div [@flyIn]="'active'">
+  <div class="ac-page-content center-block">
+    <div (click)="topPopup()" class="ac-button-area"><a href="javascript:;" class="ac-button ac-button-raised"> <span
+      class="ac-button-text">上面弹出</span>
+      <div class="ac-ripple-ink"></div>
+    </a> <a href="javascript:;" class="ac-button ac-button-raised"> <span class="ac-button-text">下面弹出</span>
+      <div class="ac-ripple-ink"></div>
+    </a> <a href="javascript:;" class="ac-button ac-button-raised"> <span class="ac-button-text">左边弹出</span>
+      <div class="ac-ripple-ink"></div>
+    </a> <a href="javascript:;" class="ac-button ac-button-raised"> <span class="ac-button-text">右边弹出</span>
+      <div class="ac-ripple-ink"></div>
+    </a></div>
+  </div>
+</div>

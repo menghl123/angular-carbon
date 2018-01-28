@@ -1,0 +1,11 @@
+<ac-header-bar>
+  <div class="left" (click)="back()"><a class="ac-icon-button color-" href="javascript:;" slot="left">
+    <i class="icon icon-arrow_back" style="font-size: 24px;"></i>
+    <div class="ac-ripple-ink"></div>
+  </a></div>
+  <div class="center"><span>Angular Carbon</span></div>
+</ac-header-bar>
+<div [@flyIn]="'active'">
+  <ac-fresh></ac-fresh>
+  <div class="ac-content-block"><p class="refresh-desc"> 按住 - 下拉 - 释放可以刷新数据 </p></div>
+</div>

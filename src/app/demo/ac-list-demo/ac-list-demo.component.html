@@ -1,0 +1,61 @@
+<ac-header-bar>
+  <div class="left" (click)="back()"><a class="ac-icon-button color-" href="javascript:;" slot="left">
+    <i class="icon icon-arrow_back" style="font-size: 24px;"></i>
+    <div class="ac-ripple-ink"></div>
+  </a></div>
+  <div class="center"><span>Angular Carbon</span></div>
+</ac-header-bar>
+<div [@flyIn]="'active'">
+  <ac-list >
+    <ac-item [animation]="true" title="item1" after="1" logo="c"></ac-item>
+    <ac-item [animation]="true" title="item5" after="2" logo="c"></ac-item>
+    <ac-item-divider>英雄联盟
+      <ac-badge>111</ac-badge>
+    </ac-item-divider>
+    <ac-item-divider>英雄联盟
+      <ac-mark icon="fa-user" type="primary" count="12"></ac-mark>
+      <ac-badge type="blue">111</ac-badge>
+    </ac-item-divider>
+    <ac-item title="item2" after="3" logo="c"></ac-item>
+    <ac-item title="item3" after="4" logo="c"></ac-item>
+    <ac-item title="item4" after="5" logo="c"></ac-item>
+  </ac-list>
+  <div class="ac-content-block">
+    <div class="ac-buttons-row">
+      <ac-button></ac-button>
+      <ac-button></ac-button>
+      <ac-button></ac-button>
+    </div>
+  </div>
+
+  <div class="ac-content-block">
+    <div class="ac-buttons-row">
+      <ac-button type="raised"></ac-button>
+      <ac-button type="raised"></ac-button>
+    </div>
+  </div>
+
+  <div class="ac-content-block">
+    <div class="ac-buttons-row">
+      <ac-button type="fill"></ac-button>
+      <ac-button type="fill"></ac-button>
+    </div>
+  </div>
+
+  <div class="ac-content-block">
+    <div class="ac-buttons-row">
+      <ac-button type="raised-fill"></ac-button>
+      <ac-button type="raised-fill"></ac-button>
+    </div>
+  </div>
+
+  <div class="ac-content-block">
+    <div class="ac-buttons-row">
+      <ac-button type="raised-fill" color="red"></ac-button>
+      <ac-button type="raised-fill" color="blue"></ac-button>
+      <ac-button type="raised-fill" color="green"></ac-button>
+      <ac-button type="raised-fill" color="amber"></ac-button>
+      <ac-button type="raised-fill"></ac-button>
+    </div>
+  </div>
+</div>
